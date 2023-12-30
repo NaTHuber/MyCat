@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cat</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; 
+             }
+        header {
+            background-color: olive; 
+            color: white;
+            padding: 20px; 
+            }
+        main {
+            flex: 1; 
+            display: flex;
+            }
+        section {
+            flex: 1; 
+            background-color: white;
+            color: olive;
+            padding: 10px; 
+            }
+        h1 {
+            text-align: center; 
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            }
+        h2 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            }
+        .info {
+          display: flex;
+          justify-content: space-between; 
+            }
+        aside {
+            width: 250px; 
+            background-color: #c7c3ba; 
+            color: #514e44;
+            padding: 10px; 
+            }
+        .contenedorimagen {
+            text-align: center;
+        }
+        a {
+            color: rgb(119, 119, 119);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Cat</h1>
+        <div class="info">
+            <p>Natalia H.</p>
+            <p>29/12/23</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>This is my cat</h2>
+            <div class="contenedorimagen">
+                <img src="MyCat.jpg" alt="MyCat" width="200">
+                <img src="MyMexicanCat.jpg" alt="MyMexicanCat" width="200">
+            </div>
+            <p>My cat's birthday is on July 21st, very close to mine. Adopting him was one of the best decisions I have ever made.</p>
+            <p> He makes me feel: </p>
+            <ul>
+                <li>Happy</li>
+                <li>Loved</li>
+                <li>At peace</li>
+            </ul>
+            <p>Throughout the day, he is quite grumpy and independent, but in the middle of the night, he wakes me up because he wants food or just my attention.</p>
+            <footer>
+                &copy;2023 by Natalia <br><br>
+                <a href="https://github.com/NaTHuber" >NaTHuber</a>
+            </footer>
+        </section>
+        <aside>
+            <h2>What is a cat?</h2>
+            <p>If you do not know what a cat is, click on the next image.
+                Wikipedia will explain it to you.
+            </p>
+            <div class="contenedorimagen">
+                <a href="https://en.wikipedia.org/wiki/Cat">
+                    <img src="CatDrawing.jpg" alt="CatDrawing" width="200">
+                </a>
+            </div>
+            <p>Here you can find cute cat pics:</p>
+            <nav>
+                <ul>
+                    <li><a href="https://unsplash.com/photos/white-and-brown-cat-lying-on-brown-wooden-floor-46TvM-BVrRI" >1st Cat</a></li>
+                    <li><a href="https://unsplash.com/photos/long-fur-white-and-black-cat-HlI03bNHhBI">2nd Cat</a> </li>
+                    <li><a href="https://unsplash.com/photos/a-cat-wearing-a-sunflower-costume-on-its-head-cQAoMJ2utDA">3rd Cat</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+</body>
+</html>
